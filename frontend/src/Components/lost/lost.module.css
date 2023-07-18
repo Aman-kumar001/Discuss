@@ -1,0 +1,40 @@
+.cont {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper {
+	width: 100%;
+	height: 90vh;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.btnCont {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	align-items: center;
+}
+.btnCont span {
+	font-family: 'Kavoon';
+	font-size: 2rem;
+	font-weight: 400;
+	color: grey;
+}
+img {
+	box-sizing: border-box;
+	/* width: 100%; */
+	height: 80vh;
+}
+@media (max-width: 768px) {
+	img {
+		height: 50vh;
+	}
+}
