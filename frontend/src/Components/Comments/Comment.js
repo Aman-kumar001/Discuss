@@ -130,7 +130,7 @@ const Comment = ({ comment, setPosts, token }) => {
 						</form>
 					)}
 					{showReply[index] && comment?.comments && (
-						<Comment comment={comment?.comments} setPosts={setPosts} />
+						<Comment comment={comment?.comments} setPosts={setPosts} token={token}/>
 					)}
 				</div>
 			))}
